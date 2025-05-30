@@ -1,0 +1,58 @@
+programa
+{
+	
+inteiro n1
+	inteiro ante
+	inteiro suce
+	funcao inicio()
+	{
+		escreva("mim de um numero inteiro ")
+		leia(n1)
+		ante = n1 - 1
+		suce = n1 + 1
+		escreva(" o sucessor e o antecessor de ", n1, " é: ", ante, "\n", suce)
+		
+		
+	}
+}
+
+programa
+{
+	
+inteiro nota1
+	inteiro nota2
+	inteiro media
+	funcao inicio()
+	{
+		escreva("qual tua nota? ")
+		leia(nota1)
+		leia(nota2)
+
+		media = (nota1 + nota2) / 2
+		escreva("tua media é ", media)
+		
+		
+	}
+}
+
+programa
+{
+inteiro tabuada
+inteiro res
+	funcao inicio()
+	{
+		escreva("me de uma tabuada ")
+		leia(tabuada)
+
+		escreva(tabuada, " X 1 = ", tabuada * 1, "\n")
+		escreva(tabuada, " X 2 = ", tabuada * 2, "\n")
+		escreva(tabuada, " X 3 = ", tabuada * 3, "\n")
+		escreva(tabuada, " X 4 = ", tabuada * 4, "\n")
+		escreva(tabuada, " X 5 = ", tabuada * 5, "\n")
+		escreva(tabuada, " X 6 = ", tabuada * 6, "\n")
+		escreva(tabuada, " X 7 = ", tabuada * 7, "\n")
+		escreva(tabuada, " X 8 = ", tabuada * 8, "\n")
+		escreva(tabuada, " X 9 = ", tabuada * 9, "\n")
+		escreva(tabuada, " X 10 = ", tabuada * 10, "\n")
+	}
+}

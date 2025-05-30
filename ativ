@@ -1,1 +1,18 @@
+programa
+{
+  
+	
+	funcao inicio()
+	{
+		
+     cadeia n1 = "Jose aldo", n2 = "connor McGregor"
+	inteiro idade1 = 29, idade2 = 27
+	real kg1 = 65.7, kg2 = 65.7
+	real alt1 = 1.70, alt2 = 1.73 
+	inteiro vit1 = 25, vit2 = 18
+
+	escreva("Do lado direito, pesando ", kg1, "kg\n", "com ", alt1, " de altura\n", "com ", vit1, " vitorias, José Aldo!")
+	escreva("\n\nDo lado esquerdo, pesando ", kg2, "kg\n", "com ", alt2, " de altura\n", "com ", vit2, " vitorias, Connor McGreggor!")
+	}
+}
 
